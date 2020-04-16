@@ -10,4 +10,4 @@ RewriteEngine on
 
 RewriteCond %{THE_REQUEST} ^.*/index.html
 
-RewriteRule ^(.*)index.html$ https://shingetsu-mgmt-proj.github.io/kikaku.site/index.html/$1 [R=301,L]
+RewriteRule ^(.*)index.html$ https://kg-freshman.github.io/welcome.web/index/$1 [R=301,L]

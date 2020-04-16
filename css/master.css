@@ -56,6 +56,15 @@ body{
   position: relative;
 }
 
+.campus_capsule a{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%; 
+  width: 100%;
+}
+
 .campus{
   padding:15px;
 
