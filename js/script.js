@@ -28,7 +28,7 @@ $(function(){
   });
 
   $('.header_logo').click(function(){
-    window.location.href = "welcome.web/";
+    window.location.href = "";
   });
 
   $(".header_menu_btn").hover(
