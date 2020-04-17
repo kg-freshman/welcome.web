@@ -12,6 +12,10 @@
     width: 130px;
   }
 
+  .index_menu2_icon{
+    display: none;
+  }
+
   .index_menu_container_sp{
     display: none;
     margin: 0 auto;
@@ -134,5 +138,12 @@
   .jump_details{
     font-size: 20px;
   }
+
+  .inquiry{
+    width: 100%;
+    font-size: 20px;
+
+  }
+
 
 }

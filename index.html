@@ -2,13 +2,13 @@
 <html lang="jp" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>関学新歓Web</title>
+    <title>KGFreshman|関学新歓Web</title>
     <link rel="stylesheet" href="css/master.css">
     <meta name="viewport"
     content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="css/master_sp.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+    <link rel="icon" href="site_logo.ico">
     <script>
       (function(d) {
         var config = {
@@ -19,12 +19,47 @@
         h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
       })(document);
     </script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+
   </head>
 
   <body>
+
+    <div class="index_menu2_icon">
+      <img src="pic/menu_icon.png" alt="">
+    </div>
+
+    <div class="index_menu2">
+      <div class="index_menu2_btns">
+        <div id="index_menu2_btns" class="header_menu">
+          <div class="header_menu_btn"><a href="about">このサイトについて</a></div>
+          <div class="header_menu_btn"><a href="apply">団体の方へ</a></div>
+        </div>
+      </div>
+    </div>
+
+
     <div class="index_container">
       <div class="index_logo">
         <img src="pic/index/logo.png" alt="">
+
+      </div>
+
+
+      <div class="header_sp_icon">
+        <img src="pic/menu_icon.png" alt="">
+      </div>
+
+      <div class="header_sp">
+        <div class="header_menu_sp">
+          <div class="header_menu_btn_sp"><a href="sanda">三田キャンパス</a></div>
+          <div class="header_menu_btn_sp"><a href="uegahara">上ケ原キャンパス</a></div>
+          <div class="header_menu_btn_sp"><a href="seiwa">聖和キャンパス</a></div>
+          <div class="header_menu_btn_sp"><a href="about">このサイトについて</a></div>
+          <div class="header_menu_btn_sp"><a href="apply">団体の方へ</a></div>
+          <div class="header_menu_blank"></div>
+          <div class="header_menu_btn_sp red_color close">閉じる</div>
+        </div>
 
       </div>
 

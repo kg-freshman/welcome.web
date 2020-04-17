@@ -28,6 +28,47 @@ $(function(){
   });
 
   $('.header_logo').click(function(){
-    window.location.href = "/";
-  })
+    window.location.href = "welcome.web/";
+  });
+
+  $(".header_menu_btn").hover(
+    function(){
+      $(this).children('a').animate({
+        'color':'#ff7f50'
+      },500);
+    },function(){
+      $(this).children('a').animate({
+        'color':'white'
+      },500);
+    }
+  );
+
+  $(".campus_capsule").hover(
+    function(){
+      $(this).animate({
+        'background-color':'rgba(181,181,181,0.95)'
+      },500);
+    },function(){
+      $(this).animate({
+        'background-color':'rgba(255,255,255,0.95)'
+      },500);
+    }
+  );
+
+  $('.index_menu2_icon').hover(
+    function(){
+      $('.index_menu2').fadeIn();
+    },function(){
+
+    }
+  );
+
+  $('.index_menu2').hover(
+    function(){
+    },function(){
+      $('.index_menu2').fadeOut();
+    }
+  );
+
+
 })
