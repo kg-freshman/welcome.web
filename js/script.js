@@ -28,7 +28,7 @@ $(function(){
   });
 
   $('.header_logo').click(function(){
-    window.location.href = "";
+    window.location.href = "https://kg-freshman.github.io/welcome.web/";
   });
 
   $(".header_menu_btn").hover(
