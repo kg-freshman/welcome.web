@@ -171,6 +171,39 @@
     line-height: 70px;
   }
 
+  .club_cell{
+    display: block;
+
+  }
+
+  details{
+    padding-left: 10px;
+    margin-left: 0px;
+  }
+
+  .genres{
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+  }
+  .genre{
+    margin-top: 0px;
+    margin-bottom: 7px;
+    margin-left: 0px;
+    margin-right: 7px;
+
+  }
+
+  .club_cell img{
+    display: inline-block;
+    height: 100px;
+    width: auto;
+    object-fit: fill;
+    z-index: 1;
+  }
+
 
 
 }

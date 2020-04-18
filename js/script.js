@@ -70,5 +70,26 @@ $(function(){
     }
   );
 
+  $('.tag').click(
+    function(){
+      $('.club_cell').hide();
+      var tag_name = $(this).data('tag');
+      $("." + tag_name).show();
+      }
+
+  );
+
+  $('#search_detail').click(
+    function(){
+      if($('.search_tags_detail').hasClass('active')){
+        $('.search_tags_detail').slideUp();
+        $('.search_tags_detail').removeClass('active');
+      } else {
+      $('.search_tags_detail').slideDown();
+      $('.search_tags_detail').addClass('active');
+      }
+    }
+  );
+
 
 })

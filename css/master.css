@@ -150,6 +150,7 @@ body{
 
 .black{
   background-color: black;
+  color: white;
 }
 
 .gray{
@@ -168,8 +169,16 @@ body{
   background-color: #dc143c;
 }
 
+.question_box_green{
+  background-color: #5EBABA;
+}
+
 .lavender{
   background-color: #6a5acd;
+}
+
+.brown{
+  background-color: #7e5f4d;
 }
 
 .index_menu_container_sp{
@@ -296,11 +305,13 @@ footer{
   border: solid #c0c0c0 1px;
   padding:15px;
   position: relative;
+  display: flex;
 }
 
 .club_cell img{
-  display: block;
-  height: 150px;
+  display: inline-block;
+  width: 220px;
+  object-fit: cover;
   z-index: 1;
 }
 
@@ -309,9 +320,19 @@ footer{
   top:10px;
   right: 10px;
   display: flex;
+  flex-wrap: wrap;
+  width: 200px;
 }
 
-.genre{
+.search_tags{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+.genre,.tag{
   padding:5px;
   color: white;
   border-radius: 5px;
@@ -321,6 +342,8 @@ footer{
   font-style: normal;
   line-height: 22px;
   margin-left: 7px;
+  margin-top: 7px;
+  display: inline-block;
 }
 
 details{
@@ -328,6 +351,9 @@ details{
   font-family: kozuka-gothic-pr6n, sans-serif;
   font-weight: 500;
   font-style: normal;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: solid #c0c0c0 1px;
 }
 
 summary{
@@ -411,4 +437,22 @@ summary{
   width: 100%;
   opacity: 0.4;
   filter: brightness(110%);
+}
+
+iframe{
+  width:100%;
+  height: 400px;
+}
+
+.search_title{
+  font-family: kozuka-gothic-pr6n, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: inline-block;
+  border-radius: 5px;
+  border-bottom: solid #c0c0c0 1px;
+}
+
+.search_tags_detail{
+  display: none;
 }
