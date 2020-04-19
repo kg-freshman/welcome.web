@@ -169,6 +169,14 @@ body{
   background-color: #dc143c;
 }
 
+.line_green{
+  background-color: #00B900;
+}
+
+.facebook_blue{
+  background-color: #3b5998;
+}
+
 .question_box_green{
   background-color: #5EBABA;
 }
@@ -413,6 +421,7 @@ summary{
   text-align: center;
   position: relative;
   margin-bottom: 20px;
+  border-radius: 5px;
 
 }
 
@@ -426,9 +435,10 @@ summary{
 }
 
 .btn img{
-  height: 30px;
-  padding-left: 5px;
-  padding-top: 5px;
+  height: 27px;
+  vertical-align: text-bottom;
+  margin-bottom: 7px;
+  margin-left: 5px;
 }
 
 .bg{
