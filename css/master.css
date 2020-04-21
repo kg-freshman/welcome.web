@@ -379,6 +379,10 @@ summary{
   font-size: 40px;
 }
 
+summary span{
+  font-size: 15px;
+}
+
 .jump_details{
   padding:5px;
   color: white;
@@ -406,7 +410,11 @@ summary{
 }
 
 .paragraph span{
-  color: red;
+  color: #dc143c;
+}
+
+.paragraph img{
+  width: 100%;
 }
 
 .btn{
@@ -473,4 +481,19 @@ iframe{
 
 .search_tags_detail{
   display: none;
+}
+
+.table_line{
+  display: flex;
+}
+
+.table_title{
+  width: 130px;
+  text-align: center;
+  background: linear-gradient(transparent 50%, yellow 50%);
+  margin-right: 30px;
+}
+
+.table_contents{
+  width: 400px;
 }
