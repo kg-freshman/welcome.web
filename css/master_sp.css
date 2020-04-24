@@ -211,6 +211,37 @@
     z-index: 1;
   }
 
+  .paragraph_photo{
+    display: flex;
+    flex-wrap: wra
+    p;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .paragraph_photo img{
+    width: 100%;
+    padding-top: 10px;
+
+  }
+
+  .table_title{
+    width: 250px;
+    text-align: center;
+    background: linear-gradient(transparent 50%, yellow 50%);
+    margin-right: 30px;
+  }
+
+
+  .continue {
+    position: relative;
+    padding: 0.35em 1em;
+    background: #668ad8;/*ボタン色*/
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
 
 
 }

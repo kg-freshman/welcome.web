@@ -91,5 +91,19 @@ $(function(){
     }
   );
 
+  $('.continue').click(
+    function(){
+      if($('.accordion').hasClass('active')){
+        $('.accordion').slideUp();
+        $('.accordion').removeClass('active');
+      } else {
+      $('.accordion').slideDown();
+      $('.accordion').addClass('active');
+      }
+    }
+  );
+
+
+
 
 })

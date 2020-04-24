@@ -417,6 +417,19 @@ summary span{
   width: 100%;
 }
 
+.paragraph_photo{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.paragraph_photo img{
+  width: 45%;
+  padding: 10px;
+
+}
+
 .btn{
   width: 50%;
   height: 70px;
@@ -496,4 +509,57 @@ iframe{
 
 .table_contents{
   width: 400px;
+}
+
+.miti_title{
+  width: 100%;
+}
+
+.mini_title p{
+  padding-left: 20px;
+  color: white;
+}
+
+
+.accordion{
+  display: none;
+}
+
+.continue {
+  display: inline-block;
+  position: relative;
+  padding: 0.35em 1em;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  text-decoration: none;
+  margin-top: 10px
+}
+
+.continue:before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: -webkit-calc(100% - 16px);
+  width: calc(100% - 16px);
+  height: 0;
+  border: solid 8px transparent;
+  border-bottom-color: #8eacec;/*ボタン色より明るめの色に*/
+}
+
+.continue:active {
+  /*押したとき*/
+  padding: 0.32em 0.9em;
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.continue:active:before {
+  width: -webkit-calc(100% - 12px);
+  width: calc(100% - 12px);
+}
+
+.continue:active:before {
+  top:-12px;
+  border-width: 6px;
 }
