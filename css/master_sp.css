@@ -243,5 +243,9 @@
     text-align: center;
   }
 
+  .table_title {
+    background: none;
+  } 
+
 
 }
